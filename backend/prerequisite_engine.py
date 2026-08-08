@@ -9,7 +9,7 @@ from collections import defaultdict, deque
 from dataclasses import dataclass
 from typing import Iterable
 
-from .models import Course
+from models import Course
 
 
 @dataclass

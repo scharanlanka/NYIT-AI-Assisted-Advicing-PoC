@@ -8,8 +8,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any, Optional
 
-from .models import Program, Student
-from .prerequisite_engine import PrerequisiteEngine
+from models import Program, Student
+from prerequisite_engine import PrerequisiteEngine
 
 
 @dataclass

@@ -10,14 +10,14 @@ from __future__ import annotations
 
 from typing import Any
 
-from ..llm_service import LLMService
-from ..models import Pathway, Program, Student
-from ..prerequisite_engine import PrerequisiteEngine
-from .context import build_curriculum_context
-from .plan_editor import plan_editor_agent
-from .preferences_editor import preferences_editor_agent
-from .qa import qa_agent
-from .router import router_agent
+from llm_service import LLMService
+from models import Pathway, Program, Student
+from prerequisite_engine import PrerequisiteEngine
+from agents.context import build_curriculum_context
+from agents.plan_editor import plan_editor_agent
+from agents.preferences_editor import preferences_editor_agent
+from agents.qa import qa_agent
+from agents.router import router_agent
 
 
 LOW_CONFIDENCE_THRESHOLD = 0.6

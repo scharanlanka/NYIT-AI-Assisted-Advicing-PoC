@@ -16,7 +16,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Iterable
 
-from .models import (
+from models import (
     Course,
     Pathway,
     Program,
@@ -25,7 +25,7 @@ from .models import (
     Student,
     Semester,
 )
-from .prerequisite_engine import PrerequisiteEngine
+from prerequisite_engine import PrerequisiteEngine
 
 
 @dataclass

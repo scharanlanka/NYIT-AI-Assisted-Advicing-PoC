@@ -41,26 +41,27 @@ from pathlib import Path
 from typing import Any, Optional
 
 from dotenv import load_dotenv
-load_dotenv(Path(__file__).parent.parent / ".env", override=False)
+load_dotenv(Path(__file__).parent / ".env", override=False)  # local dev
+load_dotenv(Path(__file__).parent.parent / ".env", override=False)  # repo root fallback
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from .agents.orchestrator import orchestrate
-from .completion import compute_degree_completion
-from .history import reconstruct_history
-from .llm_service import LLMService
-from .models import Course, Pathway, Program, Student, StudentPreferences
-from .operations import (
+from agents.orchestrator import orchestrate
+from completion import compute_degree_completion
+from history import reconstruct_history
+from llm_service import LLMService
+from models import Course, Pathway, Program, Student, StudentPreferences
+from operations import (
     apply_overrides,
     describe_op,
     diff_pathways,
     validate_operation,
 )
-from .pathway_recommender import PathwayRecommender
-from .prerequisite_engine import PrerequisiteEngine
-from .program_universe import program_courses, program_elective_pool
+from pathway_recommender import PathwayRecommender
+from prerequisite_engine import PrerequisiteEngine
+from program_universe import program_courses, program_elective_pool
 
 DATA_DIR = Path(__file__).parent / "data"
 
@@ -417,7 +418,7 @@ async def orchestrate_endpoint(req: OrchestrateRequest):
     override_result = apply_overrides(
         base_pathway, req.pathway_overrides, program, student, engine, programs
     )
-    from .models import SemesterPlan
+    from models import SemesterPlan
     current_pathway = Pathway(
         student_id=student.student_id,
         generated_at=datetime.utcnow().isoformat() + "Z",

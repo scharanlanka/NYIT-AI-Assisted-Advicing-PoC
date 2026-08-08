@@ -5,7 +5,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from ..llm_service import LLMService
+from llm_service import LLMService
 
 
 async def qa_agent(

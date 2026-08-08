@@ -9,8 +9,8 @@ from __future__ import annotations
 
 from typing import Any
 
-from .models import Student
-from .prerequisite_engine import PrerequisiteEngine
+from models import Student
+from prerequisite_engine import PrerequisiteEngine
 
 
 def _next_semester(term: str) -> str:

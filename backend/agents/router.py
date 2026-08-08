@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from ..llm_service import LLMService, LLMResponse
+from llm_service import LLMService, LLMResponse
 
 
 async def router_agent(

@@ -9,9 +9,9 @@ from __future__ import annotations
 
 from typing import Any
 
-from ..models import Pathway, Program, Student
-from ..prerequisite_engine import PrerequisiteEngine
-from ..program_universe import program_courses
+from models import Pathway, Program, Student
+from prerequisite_engine import PrerequisiteEngine
+from program_universe import program_courses
 
 
 def build_curriculum_context(

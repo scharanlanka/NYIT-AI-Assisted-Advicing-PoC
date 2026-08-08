@@ -18,9 +18,9 @@ import copy
 from dataclasses import dataclass
 from typing import Any, Optional
 
-from .models import Course, Pathway, Program, SemesterPlan, Student
-from .prerequisite_engine import PrerequisiteEngine
-from .program_universe import program_courses
+from models import Course, Pathway, Program, SemesterPlan, Student
+from prerequisite_engine import PrerequisiteEngine
+from program_universe import program_courses
 
 
 PREF_OP_TYPES = {

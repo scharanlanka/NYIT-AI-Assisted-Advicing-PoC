@@ -10,8 +10,8 @@ from __future__ import annotations
 
 from functools import lru_cache
 
-from .models import Course, Program
-from .prerequisite_engine import PrerequisiteEngine
+from models import Course, Program
+from prerequisite_engine import PrerequisiteEngine
 
 
 _CACHE: dict[str, set[str]] = {}
