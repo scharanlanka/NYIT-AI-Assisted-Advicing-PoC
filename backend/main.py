@@ -41,7 +41,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from dotenv import load_dotenv
-load_dotenv(Path(__file__).parent.parent / ".env")
+load_dotenv(Path(__file__).parent.parent / ".env", override=False)
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -70,11 +70,13 @@ app = FastAPI(
                 "Uses NYIT's public 2026-2027 catalog. Student data is synthetic.",
     version="0.4.0",
 )
+_cors_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_cors_origins,
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_credentials=True,
 )
 
 
