@@ -1,0 +1,39 @@
+{
+  "program_id": "MENG_MS",
+  "name": "Mechanical Engineering, M.S.",
+  "level": "graduate",
+  "college": "College of Engineering and Computing Sciences",
+  "department": "Mechanical Engineering",
+  "catalog_year": "2026-2027",
+  "total_credits": 30,
+  "catalog_url": "https://catalog.nyit.edu/engineering/mechanical_engineering_ms/curriculum",
+  "source_notes": "30 credits total. Required core (15) + Thesis track (15) or Non-Thesis track (15). Graduate courses generally require admitted graduate standing.",
+  "requirement_blocks": [
+    {"name": "Required Core Courses", "course_ids": ["MENG 601", "MENG 603", "MENG 604", "MENG 634", "MENG 640"], "credits_required": 15},
+    {"name": "Thesis Track", "course_ids": ["MENG 660", "MENG 661"], "credits_required": 6, "notes": "Plus 9 credits of graduate-level electives (above 600). Minimum 3 credits must be MENG."},
+    {"name": "Non-Thesis Track", "course_ids": ["MENG 660"], "credits_required": 3, "notes": "Plus 12 credits of graduate-level electives (above 600). Minimum 6 credits must be MENG."},
+    {"name": "Electives", "course_ids": [], "credits_required": 9, "notes": "9 credits for thesis track, 12 for non-thesis. Up to 6 credits from other engineering departments with chair approval."}
+  ],
+  "concentrations": [
+    {"name": "Design and Solid Mechanics", "description": "Thesis-track concentration in design and solid mechanics.", "requirement_blocks": []},
+    {"name": "Energy and Thermal Science", "description": "Thesis-track concentration in energy and thermal science.", "requirement_blocks": []},
+    {"name": "Mechatronics", "description": "Thesis-track concentration in mechatronics.", "requirement_blocks": []},
+    {"name": "Biomedical Devices", "description": "Thesis-track concentration in biomedical devices.", "requirement_blocks": []}
+  ],
+  "courses": [
+    {"course_id": "MENG 601", "title": "Advanced Engineering Mathematics", "credits": 3, "description": "Graduate-level applied mathematics for engineers.", "prerequisite_groups": [], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall"], "category": "core_required", "tags": ["math", "grad"]},
+    {"course_id": "MENG 603", "title": "Advanced Thermodynamics", "credits": 3, "description": "Advanced thermodynamics — statistical mechanics and applications.", "prerequisite_groups": [], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall"], "category": "core_required", "tags": ["thermodynamics", "grad"]},
+    {"course_id": "MENG 604", "title": "Fluid Dynamics", "credits": 3, "description": "Advanced fluid mechanics and dynamics.", "prerequisite_groups": [], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["spring"], "category": "core_required", "tags": ["fluids", "grad"]},
+    {"course_id": "MENG 634", "title": "Finite Element Analysis", "credits": 3, "description": "Finite element method and its applications to engineering problems.", "prerequisite_groups": [["MENG 601"]], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["spring"], "category": "core_required", "tags": ["fea", "grad"]},
+    {"course_id": "MENG 640", "title": "Feedback Control of Dynamical Systems", "credits": 3, "description": "Feedback control theory for dynamical systems.", "prerequisite_groups": [["MENG 601"]], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall"], "category": "core_required", "tags": ["control", "grad"]},
+    {"course_id": "MENG 660", "title": "Mechanical Engineering Research", "credits": 3, "description": "Directed research project under faculty supervision.", "prerequisite_groups": [["MENG 601"], ["MENG 603"]], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall", "spring"], "category": "capstone", "tags": ["research", "grad"]},
+    {"course_id": "MENG 661", "title": "Mechanical Engineering Thesis", "credits": 3, "description": "Thesis defense — thesis track only.", "prerequisite_groups": [["MENG 660"]], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall", "spring"], "category": "capstone", "tags": ["thesis", "grad"]},
+    {"course_id": "MENG 602", "title": "Computational Methods", "credits": 3, "description": "Numerical methods for engineering computation.", "prerequisite_groups": [["MENG 601"]], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["spring"], "category": "core_required", "tags": ["numerical", "grad"]},
+    {"course_id": "MENG 605", "title": "Advanced Materials Science", "credits": 3, "description": "Advanced materials — structure, properties, processing.", "prerequisite_groups": [], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall"], "category": "core_required", "tags": ["materials", "grad"]},
+    {"course_id": "MENG 610", "title": "Heat Transfer I", "credits": 3, "description": "Advanced heat transfer — conduction, convection, radiation.", "prerequisite_groups": [["MENG 603"]], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["spring"], "category": "core_required", "tags": ["heat-transfer", "grad"]},
+    {"course_id": "MENG 622", "title": "Biomechanics", "credits": 3, "description": "Mechanics applied to biological systems.", "prerequisite_groups": [], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall"], "category": "concentration", "tags": ["biomechanics", "grad"]},
+    {"course_id": "MENG 642", "title": "Sensors and Actuators", "credits": 3, "description": "Sensor and actuator technologies for mechatronic systems.", "prerequisite_groups": [], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["spring"], "category": "concentration", "tags": ["sensors", "mechatronics", "grad"]},
+    {"course_id": "MENG 648", "title": "Mechatronic Systems", "credits": 3, "description": "Integrated design of mechatronic systems.", "prerequisite_groups": [["MENG 640"], ["MENG 642"]], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["fall"], "category": "concentration", "tags": ["mechatronics", "grad"]},
+    {"course_id": "MENG 650", "title": "Medical Devices: An Embedded Systems Approach", "credits": 3, "description": "Design of medical devices using embedded systems.", "prerequisite_groups": [], "department": "Mechanical Engineering", "level": "600", "semesters_offered": ["spring"], "category": "concentration", "tags": ["medical-devices", "grad"]}
+  ]
+}

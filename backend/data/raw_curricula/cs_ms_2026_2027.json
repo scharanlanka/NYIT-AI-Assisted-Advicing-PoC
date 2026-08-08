@@ -1,0 +1,34 @@
+{
+  "program_id": "CS_MS",
+  "name": "Computer Science, M.S.",
+  "level": "graduate",
+  "college": "College of Engineering and Computing Sciences",
+  "department": "Computer Science",
+  "catalog_year": "2026-2027",
+  "total_credits": 30,
+  "catalog_url": "https://catalog.nyit.edu/engineering/computer_science_ms/curriculum",
+  "source_notes": "30 credits total. Fundamental (9) + System Programming pick 2 (6) + Application pick 2 (6) + Project/Thesis (3-6) + Electives (3-6). Graduate courses generally require admitted graduate standing; specific course-level prereqs are department-approved.",
+  "requirement_blocks": [
+    {"name": "Fundamental Courses", "course_ids": ["CSCI 610", "CSCI 641", "CSCI 651"], "credits_required": 9},
+    {"name": "System Programming (choose 2)", "course_ids": ["CSCI 620", "CSCI 621", "CSCI 731"], "choose_n": 2, "credits_required": 6},
+    {"name": "Application (choose 2)", "course_ids": ["CSCI 665", "CSCI 670", "CSCI 690", "CSCI 755", "CSCI 760"], "choose_n": 2, "credits_required": 6},
+    {"name": "Project or Thesis Track", "course_ids": ["CSCI 890", "CSCI 891"], "choose_n": 2, "credits_required": 6, "notes": "Thesis: CSCI 890 + CSCI 891 (6 cr). Non-thesis: 3-cr project + 3 additional electives."},
+    {"name": "Electives", "course_ids": [], "credits_required": 3, "notes": "3 credits for thesis track, 6 credits for non-thesis track."}
+  ],
+  "concentrations": [],
+  "courses": [
+    {"course_id": "CSCI 610", "title": "Theoretical Concepts in Computers and Computation", "credits": 3, "description": "Formal languages, automata, computability, and complexity theory at the graduate level.", "prerequisite_groups": [], "department": "Computer Science", "level": "600", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["theory", "grad"]},
+    {"course_id": "CSCI 641", "title": "Computer Architecture I", "credits": 3, "description": "Advanced computer architecture — pipelining, caches, memory hierarchies.", "prerequisite_groups": [], "department": "Computer Science", "level": "600", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["architecture", "grad"]},
+    {"course_id": "CSCI 651", "title": "Algorithm Concepts", "credits": 3, "description": "Advanced algorithm design and analysis.", "prerequisite_groups": [], "department": "Computer Science", "level": "600", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["algorithms", "grad"]},
+    {"course_id": "CSCI 620", "title": "Operating System Security", "credits": 3, "description": "Secure OS design, access control, and hardening.", "prerequisite_groups": [["CSCI 651"]], "department": "Computer Science", "level": "600", "semesters_offered": ["fall"], "category": "core_required", "tags": ["security", "os", "grad"]},
+    {"course_id": "CSCI 621", "title": "Programming Languages", "credits": 3, "description": "Programming language paradigms, formal semantics, and type systems.", "prerequisite_groups": [["CSCI 610"]], "department": "Computer Science", "level": "600", "semesters_offered": ["spring"], "category": "core_required", "tags": ["languages", "grad"]},
+    {"course_id": "CSCI 731", "title": "Compiler Theory I", "credits": 3, "description": "Compiler design — lexical/syntax analysis, code generation, optimization.", "prerequisite_groups": [["CSCI 621"]], "department": "Computer Science", "level": "700", "semesters_offered": ["fall"], "category": "core_required", "tags": ["compilers", "grad"]},
+    {"course_id": "CSCI 665", "title": "Software Engineering", "credits": 3, "description": "Advanced software engineering methodologies and practices.", "prerequisite_groups": [], "department": "Computer Science", "level": "600", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["software-engineering", "grad"]},
+    {"course_id": "CSCI 670", "title": "Computer Graphics", "credits": 3, "description": "3D graphics, rendering pipelines, and shader programming.", "prerequisite_groups": [["CSCI 651"]], "department": "Computer Science", "level": "600", "semesters_offered": ["spring"], "category": "core_required", "tags": ["graphics", "grad"]},
+    {"course_id": "CSCI 690", "title": "Computer Networks", "credits": 3, "description": "Graduate-level computer networking — protocols, architectures, and performance.", "prerequisite_groups": [], "department": "Computer Science", "level": "600", "semesters_offered": ["fall"], "category": "core_required", "tags": ["networks", "grad"]},
+    {"course_id": "CSCI 755", "title": "Artificial Intelligence I", "credits": 3, "description": "Graduate-level AI — search, knowledge representation, planning, and introduction to ML.", "prerequisite_groups": [["CSCI 651"]], "department": "Computer Science", "level": "700", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["ai", "grad"]},
+    {"course_id": "CSCI 760", "title": "Database Systems", "credits": 3, "description": "Graduate-level database systems, query processing, and transaction management.", "prerequisite_groups": [], "department": "Computer Science", "level": "700", "semesters_offered": ["spring"], "category": "core_required", "tags": ["databases", "grad"]},
+    {"course_id": "CSCI 890", "title": "MS Thesis I", "credits": 3, "description": "First semester of MS thesis research.", "prerequisite_groups": [["CSCI 610"], ["CSCI 641"], ["CSCI 651"]], "department": "Computer Science", "level": "800", "semesters_offered": ["fall", "spring"], "category": "capstone", "tags": ["thesis", "grad"]},
+    {"course_id": "CSCI 891", "title": "MS Thesis II", "credits": 3, "description": "Second semester of MS thesis — defense.", "prerequisite_groups": [["CSCI 890"]], "department": "Computer Science", "level": "800", "semesters_offered": ["fall", "spring"], "category": "capstone", "tags": ["thesis", "grad"]}
+  ]
+}

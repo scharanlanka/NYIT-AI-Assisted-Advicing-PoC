@@ -1,0 +1,739 @@
+{
+  "program_id": "CS_BS",
+  "name": "Computer Science, B.S.",
+  "level": "undergrad",
+  "college": "College of Engineering and Computing Sciences",
+  "department": "Computer Science",
+  "catalog_year": "2026-2027",
+  "total_credits": 122,
+  "catalog_url": "https://catalog.nyit.edu/engineering/computer_science/curriculum",
+  "source_notes": "Curriculum blocks scraped from NYIT public catalog 2026-2027. Individual course prerequisites cross-referenced with the official 2022 Semester Map PDF (site.nyit.edu/files/advising/semester_maps_2022/ADV_DegreeMap_COECS_ComputerScienceBS_2022.pdf). Where the 2026-2027 catalog uses course codes that did not appear in the 2022 map, prereqs default to empty and are marked TODO for follow-up.",
+  "requirement_blocks": [
+    {
+      "name": "General Education — Foundations",
+      "course_ids": ["FCWR 101", "FCWR 151", "FCWR 304"],
+      "credits_required": 9
+    },
+    {
+      "name": "General Education — Data Literacy",
+      "course_ids": ["DATA 101"],
+      "credits_required": 3
+    },
+    {
+      "name": "General Education — Social Science Core",
+      "course_ids": ["IENG 400"],
+      "credits_required": 3
+    },
+    {
+      "name": "General Education — Seminars (3 of 4 areas)",
+      "course_ids": ["ICBS 3XX", "ICLT 3XX", "ICPH 3XX", "ICSS 3XX"],
+      "choose_n": 3,
+      "credits_required": 9,
+      "notes": "Students must take three seminar courses from three different areas of study."
+    },
+    {
+      "name": "General Education — Math",
+      "course_ids": ["MATH 170"],
+      "credits_required": 4
+    },
+    {
+      "name": "General Education — Science (choose one)",
+      "course_ids": ["PHYS 170", "CHEM 110", "BIOL 110"],
+      "choose_n": 1,
+      "credits_required": 4
+    },
+    {
+      "name": "Engineering Technology",
+      "course_ids": ["ETCS 105", "ETCS 108"],
+      "credits_required": 5,
+      "notes": "ETCS 105 may be waived for transfer students with sophomore+ status."
+    },
+    {
+      "name": "Core Computer Science",
+      "course_ids": [
+        "CSCI 125", "CSCI 135", "CSCI 155", "CSCI 185", "CSCI 235",
+        "CSCI 260", "CSCI 270", "CSCI 300", "CSCI 312", "CSCI 318",
+        "CSCI 330", "CSCI 335", "CSCI 345", "CSCI 380",
+        "CSCI 456", "CSCI 457"
+      ],
+      "credits_required": 46,
+      "notes": "AI concentration substitutes CSCI 435 for CSCI 270."
+    },
+    {
+      "name": "Additional Mathematics",
+      "course_ids": ["MATH 180", "MATH 310"],
+      "credits_required": 7
+    },
+    {
+      "name": "Electives",
+      "course_ids": [],
+      "credits_required": 15,
+      "notes": "9 Math/Science Elective + 3 General Elective + 3 Liberal Arts Elective. All electives must be approved by the department."
+    }
+  ],
+  "concentrations": [
+    {
+      "name": "Artificial Intelligence",
+      "description": "Choose four courses from the AI concentration list. Substitute CSCI 435 for CSCI 270 in the core.",
+      "requirement_blocks": [
+        {
+          "name": "AI Concentration Electives (choose 4)",
+          "course_ids": [
+            "CSCI 353", "CSCI 355", "CSCI 410", "CSCI 425",
+            "CSCI 460", "CSCI 465", "CSCI 470"
+          ],
+          "choose_n": 4,
+          "credits_required": 12
+        }
+      ]
+    },
+    {
+      "name": "Big Data Management and Analytics",
+      "description": "Choose four courses from the Big Data concentration list.",
+      "requirement_blocks": [
+        {
+          "name": "Big Data Concentration Electives (choose 4)",
+          "course_ids": ["CSCI 401", "CSCI 405", "CSCI 415", "CSCI 426", "CSCI 436"],
+          "choose_n": 4,
+          "credits_required": 12
+        }
+      ]
+    },
+    {
+      "name": "Network Security",
+      "description": "Choose four courses from the Network Security concentration list.",
+      "requirement_blocks": [
+        {
+          "name": "Network Security Concentration Electives (choose 4)",
+          "course_ids": [
+            "CSCI 352", "CSCI 354", "CSCI 357", "CSCI 362",
+            "CSCI 440", "CSCI 445", "CSCI 460", "CSCI 470"
+          ],
+          "choose_n": 4,
+          "credits_required": 12
+        }
+      ]
+    },
+    {
+      "name": "General Option",
+      "description": "Choose four CSCI/ITEC 300- or 400-level courses (excluding CSCI 316 and CSCI 317).",
+      "requirement_blocks": [
+        {
+          "name": "General Concentration Electives (choose 4)",
+          "course_ids": [],
+          "choose_n": 4,
+          "credits_required": 12,
+          "notes": "Any CSCI/ITEC 300- or 400-level except CSCI 316, 317."
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "CSCI 125",
+      "title": "Computer Programming I",
+      "credits": 3,
+      "description": "Introduction to computer programming and problem solving using a high-level language.",
+      "prerequisite_groups": [],
+      "department": "Computer Science",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["programming", "fundamentals"]
+    },
+    {
+      "course_id": "CSCI 135",
+      "title": "Digital Logic Design Fundamentals",
+      "credits": 3,
+      "description": "Fundamentals of digital logic design including Boolean algebra, combinational and sequential circuits.",
+      "prerequisite_groups": [],
+      "department": "Computer Science",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["digital-logic", "hardware"]
+    },
+    {
+      "course_id": "CSCI 155",
+      "title": "Computer Organization and Architecture",
+      "credits": 3,
+      "description": "Computer organization at the assembly language level, memory hierarchy, and processor architecture.",
+      "prerequisite_groups": [
+        ["CSCI 125"],
+        ["CSCI 135", "EENG 125"],
+        ["MATH 161", "MATH 170"]
+      ],
+      "department": "Computer Science",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["architecture", "assembly"]
+    },
+    {
+      "course_id": "CSCI 185",
+      "title": "Computer Programming II",
+      "credits": 3,
+      "description": "Object-oriented programming, data abstraction, and program design.",
+      "prerequisite_groups": [["CSCI 125"]],
+      "department": "Computer Science",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["programming", "oop"]
+    },
+    {
+      "course_id": "CSCI 235",
+      "title": "Elements of Discrete Structures",
+      "credits": 3,
+      "description": "Logic, sets, functions, relations, proof techniques, counting, algorithmic analysis, graph theory, and trees.",
+      "prerequisite_groups": [
+        ["CSCI 185"],
+        ["MATH 161", "MATH 170"]
+      ],
+      "department": "Computer Science",
+      "level": "200",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["discrete-math", "theory"]
+    },
+    {
+      "course_id": "CSCI 260",
+      "title": "Data Structures",
+      "credits": 3,
+      "description": "Classic data structures — stacks, queues, linked lists, binary trees — with sorting, searching, and computational analysis.",
+      "prerequisite_groups": [
+        ["MATH 161", "MATH 170"],
+        ["CSCI 180", "CSCI 210", "CSCI 185"]
+      ],
+      "department": "Computer Science",
+      "level": "200",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["data-structures", "algorithms"]
+    },
+    {
+      "course_id": "CSCI 270",
+      "title": "Probability and Statistics for Computer Science",
+      "credits": 3,
+      "description": "Probability, discrete and continuous distributions, statistical inference, and applications in computer science.",
+      "prerequisite_groups": [["MATH 180"], ["CSCI 235"]],
+      "department": "Computer Science",
+      "level": "200",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["probability", "statistics"]
+    },
+    {
+      "course_id": "CSCI 300",
+      "title": "Database Management",
+      "credits": 3,
+      "description": "Relational database design, SQL, normalization, transactions, and database administration.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["databases", "sql"]
+    },
+    {
+      "course_id": "CSCI 312",
+      "title": "Theory of Computation",
+      "credits": 3,
+      "description": "Formal languages, automata theory, computability, and complexity.",
+      "prerequisite_groups": [["CSCI 235"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["theory", "automata"]
+    },
+    {
+      "course_id": "CSCI 318",
+      "title": "Programming Language Concepts",
+      "credits": 3,
+      "description": "Comparative study of programming language paradigms — imperative, functional, object-oriented, logic.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["languages", "paradigms"]
+    },
+    {
+      "course_id": "CSCI 330",
+      "title": "Operating Systems",
+      "credits": 3,
+      "description": "Process management, memory management, file systems, concurrency, and OS design.",
+      "prerequisite_groups": [
+        ["CSCI 260"],
+        ["CSCI 185", "CSCI 210"]
+      ],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["operating-systems", "systems"]
+    },
+    {
+      "course_id": "CSCI 335",
+      "title": "Design and Analysis of Algorithms",
+      "credits": 3,
+      "description": "Algorithm design techniques, complexity analysis, greedy algorithms, dynamic programming, NP-completeness.",
+      "prerequisite_groups": [["CSCI 260"], ["CSCI 235"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["algorithms", "complexity"]
+    },
+    {
+      "course_id": "CSCI 345",
+      "title": "Computer Networks",
+      "credits": 3,
+      "description": "Network architectures, OSI/TCP-IP models, routing, transport protocols, and network security fundamentals.",
+      "prerequisite_groups": [["CSCI 330"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["networks", "protocols"]
+    },
+    {
+      "course_id": "CSCI 380",
+      "title": "Introduction to Software Engineering",
+      "credits": 3,
+      "description": "Software development lifecycle, requirements, design patterns, testing, agile methodologies.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["software-engineering", "sdlc"]
+    },
+    {
+      "course_id": "CSCI 456",
+      "title": "Senior Project I",
+      "credits": 2,
+      "description": "First half of the senior capstone: project proposal, requirements, and design.",
+      "prerequisite_groups": [["CSCI 380"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall"],
+      "category": "capstone",
+      "tags": ["capstone", "project"]
+    },
+    {
+      "course_id": "CSCI 457",
+      "title": "Senior Project II",
+      "credits": 2,
+      "description": "Second half of the senior capstone: implementation, testing, and presentation.",
+      "prerequisite_groups": [["CSCI 456"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["spring"],
+      "category": "capstone",
+      "tags": ["capstone", "project"]
+    },
+
+    {
+      "course_id": "CSCI 353",
+      "title": "Programming for Artificial Intelligence",
+      "credits": 3,
+      "description": "Programming techniques for AI systems — search, knowledge representation, symbolic reasoning.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["ai", "programming"]
+    },
+    {
+      "course_id": "CSCI 355",
+      "title": "Artificial Intelligence I",
+      "credits": 3,
+      "description": "Search algorithms, knowledge representation, logic, planning, and introductory machine learning.",
+      "prerequisite_groups": [["CSCI 260"], ["CSCI 235"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["ai", "search", "logic"]
+    },
+    {
+      "course_id": "CSCI 410",
+      "title": "Artificial Intelligence II",
+      "credits": 3,
+      "description": "Advanced AI topics — probabilistic reasoning, Bayesian networks, reinforcement learning, and applications.",
+      "prerequisite_groups": [["CSCI 355"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["spring"],
+      "category": "concentration",
+      "tags": ["ai", "reinforcement-learning"]
+    },
+    {
+      "course_id": "CSCI 425",
+      "title": "Optimization Methods",
+      "credits": 3,
+      "description": "Linear and nonlinear optimization techniques for AI and operations research.",
+      "prerequisite_groups": [["MATH 310"], ["CSCI 335"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall"],
+      "category": "concentration",
+      "tags": ["optimization", "ai"]
+    },
+    {
+      "course_id": "CSCI 465",
+      "title": "Machine Learning",
+      "credits": 3,
+      "description": "Supervised and unsupervised learning, neural networks, model evaluation, and practical ML pipelines.",
+      "prerequisite_groups": [["CSCI 260"], ["MATH 310"], ["CSCI 270", "CSCI 435"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["machine-learning", "ai"]
+    },
+    {
+      "course_id": "CSCI 435",
+      "title": "Probability and Statistical Methods",
+      "credits": 3,
+      "description": "AI-concentration substitute for CSCI 270; emphasizes ML-relevant statistical methods.",
+      "prerequisite_groups": [["MATH 180"], ["CSCI 235"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["statistics", "ai"]
+    },
+    {
+      "course_id": "CSCI 460",
+      "title": "Special Topics I",
+      "credits": 3,
+      "description": "Rotating advanced topic in computer science.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["special-topics"]
+    },
+    {
+      "course_id": "CSCI 470",
+      "title": "Special Topics II",
+      "credits": 3,
+      "description": "Rotating advanced topic in computer science.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["special-topics"]
+    },
+
+    {
+      "course_id": "CSCI 401",
+      "title": "Database Interfaces and Programming",
+      "credits": 3,
+      "description": "Advanced database programming, ORM, stored procedures, and application interfaces.",
+      "prerequisite_groups": [["CSCI 300"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall"],
+      "category": "concentration",
+      "tags": ["databases", "big-data"]
+    },
+    {
+      "course_id": "CSCI 405",
+      "title": "Distributed Database Systems",
+      "credits": 3,
+      "description": "Distributed databases, replication, partitioning, and consistency models.",
+      "prerequisite_groups": [["CSCI 300"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["spring"],
+      "category": "concentration",
+      "tags": ["databases", "distributed-systems"]
+    },
+    {
+      "course_id": "CSCI 415",
+      "title": "Introduction to Data Mining",
+      "credits": 3,
+      "description": "Data mining concepts, algorithms, and applications — classification, clustering, association rules.",
+      "prerequisite_groups": [["CSCI 300"], ["CSCI 270", "CSCI 435"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall"],
+      "category": "concentration",
+      "tags": ["data-mining", "big-data"]
+    },
+    {
+      "course_id": "CSCI 426",
+      "title": "Information Retrieval",
+      "credits": 3,
+      "description": "Text indexing, search engines, ranking algorithms, and web information retrieval.",
+      "prerequisite_groups": [["CSCI 300"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["spring"],
+      "category": "concentration",
+      "tags": ["information-retrieval", "search"]
+    },
+    {
+      "course_id": "CSCI 436",
+      "title": "Big Data Management and Analytics",
+      "credits": 3,
+      "description": "Big data ecosystems — Hadoop, Spark, NoSQL — and large-scale analytics.",
+      "prerequisite_groups": [["CSCI 300"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall"],
+      "category": "concentration",
+      "tags": ["big-data", "hadoop", "spark"]
+    },
+
+    {
+      "course_id": "CSCI 352",
+      "title": "Introduction to Network and Internet Security",
+      "credits": 3,
+      "description": "Foundations of network and Internet security — threats, defenses, cryptographic basics.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["security", "networks"]
+    },
+    {
+      "course_id": "CSCI 354",
+      "title": "Principles of Information Security",
+      "credits": 3,
+      "description": "Information security principles, risk management, and security policy.",
+      "prerequisite_groups": [["CSCI 260"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "concentration",
+      "tags": ["security", "policy"]
+    },
+    {
+      "course_id": "CSCI 357",
+      "title": "CISCO Academy Level I",
+      "credits": 3,
+      "description": "Cisco Networking Academy curriculum — routing, switching, and network fundamentals.",
+      "prerequisite_groups": [["CSCI 345"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["fall"],
+      "category": "concentration",
+      "tags": ["networking", "cisco"]
+    },
+    {
+      "course_id": "CSCI 362",
+      "title": "Information System Security Engineering and Administration",
+      "credits": 3,
+      "description": "Design, implementation, and administration of secure information systems.",
+      "prerequisite_groups": [["CSCI 354"]],
+      "department": "Computer Science",
+      "level": "300",
+      "semesters_offered": ["spring"],
+      "category": "concentration",
+      "tags": ["security", "systems"]
+    },
+    {
+      "course_id": "CSCI 440",
+      "title": "Advanced Network and Internet Security",
+      "credits": 3,
+      "description": "Advanced topics in network security — intrusion detection, secure protocols, forensics.",
+      "prerequisite_groups": [["CSCI 352"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["fall"],
+      "category": "concentration",
+      "tags": ["security", "networks"]
+    },
+    {
+      "course_id": "CSCI 445",
+      "title": "Operating System Security",
+      "credits": 3,
+      "description": "OS security models, access control, secure kernels, and hardening.",
+      "prerequisite_groups": [["CSCI 330"]],
+      "department": "Computer Science",
+      "level": "400",
+      "semesters_offered": ["spring"],
+      "category": "concentration",
+      "tags": ["security", "os"]
+    },
+
+    {
+      "course_id": "MATH 170",
+      "title": "Calculus I",
+      "credits": 4,
+      "description": "Limits, continuity, differentiation, and applications.",
+      "prerequisite_groups": [],
+      "department": "Mathematics",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "math_required",
+      "tags": ["calculus"]
+    },
+    {
+      "course_id": "MATH 180",
+      "title": "Calculus II",
+      "credits": 4,
+      "description": "Integration techniques, sequences, series, and applications.",
+      "prerequisite_groups": [["MATH 170"]],
+      "department": "Mathematics",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "math_required",
+      "tags": ["calculus"]
+    },
+    {
+      "course_id": "MATH 310",
+      "title": "Linear Algebra",
+      "credits": 3,
+      "description": "Vector spaces, linear transformations, matrices, eigenvalues.",
+      "prerequisite_groups": [["MATH 180"]],
+      "department": "Mathematics",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "math_required",
+      "tags": ["linear-algebra"]
+    },
+
+    {
+      "course_id": "FCWR 101",
+      "title": "Writing I: Foundations of College Composition",
+      "credits": 3,
+      "description": "Foundations of college-level writing and composition.",
+      "prerequisite_groups": [],
+      "department": "Humanities",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "gen_ed",
+      "tags": ["writing"]
+    },
+    {
+      "course_id": "FCWR 151",
+      "title": "Writing II: Foundations of Research Writing",
+      "credits": 3,
+      "description": "Research writing, source evaluation, and academic argumentation.",
+      "prerequisite_groups": [["FCWR 101"]],
+      "department": "Humanities",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "gen_ed",
+      "tags": ["writing", "research"]
+    },
+    {
+      "course_id": "FCWR 304",
+      "title": "Communication for Technical Professions",
+      "credits": 3,
+      "description": "Technical communication for engineering and computing professions.",
+      "prerequisite_groups": [["FCWR 151"]],
+      "department": "Humanities",
+      "level": "300",
+      "semesters_offered": ["fall", "spring"],
+      "category": "gen_ed",
+      "tags": ["writing", "technical-communication"]
+    },
+    {
+      "course_id": "DATA 101",
+      "title": "Making Sense of a Data-Oriented Society",
+      "credits": 3,
+      "description": "Data literacy for informed citizenship — statistics, data visualization, and critical thinking.",
+      "prerequisite_groups": [],
+      "department": "Data Science",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "gen_ed",
+      "tags": ["data-literacy"]
+    },
+    {
+      "course_id": "IENG 400",
+      "title": "Technology and Global Issues",
+      "credits": 3,
+      "description": "Technology's role in global society, ethics, and policy.",
+      "prerequisite_groups": [],
+      "department": "Interdisciplinary",
+      "level": "400",
+      "semesters_offered": ["fall", "spring"],
+      "category": "gen_ed",
+      "tags": ["ethics", "policy"]
+    },
+    {
+      "course_id": "PHYS 170",
+      "title": "General Physics I",
+      "credits": 4,
+      "description": "Classical mechanics — kinematics, dynamics, energy, momentum.",
+      "prerequisite_groups": [["MATH 170"]],
+      "department": "Physics",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "science_required",
+      "tags": ["physics", "mechanics"]
+    },
+    {
+      "course_id": "PHYS 180",
+      "title": "General Physics II",
+      "credits": 4,
+      "description": "Electricity, magnetism, waves, and optics.",
+      "prerequisite_groups": [["PHYS 170"]],
+      "department": "Physics",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "science_required",
+      "tags": ["physics", "electromagnetism"]
+    },
+    {
+      "course_id": "CHEM 110",
+      "title": "General Chemistry I",
+      "credits": 4,
+      "description": "Atomic structure, chemical bonding, stoichiometry, and thermodynamics.",
+      "prerequisite_groups": [],
+      "department": "Chemistry",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "science_required",
+      "tags": ["chemistry"]
+    },
+    {
+      "course_id": "BIOL 110",
+      "title": "General Biology I",
+      "credits": 4,
+      "description": "Cell biology, genetics, and evolution.",
+      "prerequisite_groups": [],
+      "department": "Biology",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "science_required",
+      "tags": ["biology"]
+    },
+    {
+      "course_id": "ETCS 105",
+      "title": "Career Discovery",
+      "credits": 2,
+      "description": "Career exploration in engineering and computing.",
+      "prerequisite_groups": [],
+      "department": "Engineering Technology",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["career"]
+    },
+    {
+      "course_id": "ETCS 108",
+      "title": "Computer, Internet, and Society",
+      "credits": 3,
+      "description": "Social, ethical, and legal issues in computing.",
+      "prerequisite_groups": [],
+      "department": "Engineering Technology",
+      "level": "100",
+      "semesters_offered": ["fall", "spring"],
+      "category": "core_required",
+      "tags": ["ethics", "society"]
+    }
+  ]
+}

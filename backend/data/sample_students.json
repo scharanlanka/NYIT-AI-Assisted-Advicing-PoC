@@ -1,0 +1,303 @@
+{
+  "_meta": {
+    "disclaimer": "All student profiles below are FULLY SYNTHETIC. They do not correspond to any real NYIT student. Names are fictional. Data generated for POC demonstration only.",
+    "generated_for": "NYIT AI-Assisted Advising POC",
+    "count": 14
+  },
+  "students": [
+    {
+      "student_id": "S-CSBS-001",
+      "name": "Alex Morgan",
+      "program_id": "CS_BS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Spring 2028",
+      "completed_courses": [
+        "FCWR 101", "FCWR 151", "MATH 170", "MATH 180",
+        "CSCI 125", "CSCI 135", "CSCI 155", "CSCI 185",
+        "CSCI 235", "CSCI 260", "ETCS 105", "ETCS 108",
+        "DATA 101", "PHYS 170"
+      ],
+      "current_courses": ["CSCI 300", "CSCI 318", "MATH 310", "FCWR 304"],
+      "gpa": 3.6,
+      "preferences": {
+        "interests": ["artificial intelligence", "machine learning"],
+        "max_credits_per_semester": 16,
+        "min_credits_per_semester": 12,
+        "preferred_schedule": "morning",
+        "concentration_choice": "Artificial Intelligence",
+        "notes": "Wants AI concentration; interested in graduate school."
+      }
+    },
+    {
+      "student_id": "S-CSBS-002",
+      "name": "Priya Rao",
+      "program_id": "CS_BS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Spring 2027",
+      "target_graduation": "Spring 2029",
+      "completed_courses": [
+        "FCWR 101", "MATH 170", "CSCI 125", "CSCI 135",
+        "ETCS 105", "ETCS 108", "DATA 101"
+      ],
+      "current_courses": ["FCWR 151", "CSCI 185", "MATH 180", "CHEM 110"],
+      "gpa": 3.1,
+      "preferences": {
+        "interests": ["cybersecurity", "networks"],
+        "max_credits_per_semester": 15,
+        "min_credits_per_semester": 12,
+        "preferred_schedule": "afternoon",
+        "concentration_choice": "Network Security",
+        "notes": "Wants co-op option; light spring load next year."
+      }
+    },
+    {
+      "student_id": "S-ITBS-001",
+      "name": "Marcus Chen",
+      "program_id": "IT_BS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Spring 2028",
+      "completed_courses": [
+        "FCWR 101", "FCWR 151", "MATH 161",
+        "CSCI 125", "CSCI 185", "CSCI 235", "CSCI 260",
+        "ETCS 105", "ETCS 108", "DATA 101",
+        "ITEC 251", "ITEC 290", "IENG 251"
+      ],
+      "current_courses": ["CSCI 330", "CSCI 345", "ITEC 305", "IENG 400"],
+      "gpa": 3.4,
+      "preferences": {
+        "interests": ["information security", "network administration"],
+        "max_credits_per_semester": 15,
+        "min_credits_per_semester": 12,
+        "preferred_schedule": "morning",
+        "concentration_choice": "Information and Network Security Option",
+        "notes": "Aiming for GRC roles; open to APMD 5-year Cybersecurity MS."
+      }
+    },
+    {
+      "student_id": "S-ITBS-002",
+      "name": "Jamila Okafor",
+      "program_id": "IT_BS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2027",
+      "target_graduation": "Spring 2029",
+      "completed_courses": [
+        "FCWR 101", "MATH 161", "CSCI 125", "CSCI 155",
+        "ETCS 105", "ETCS 108", "DATA 101"
+      ],
+      "current_courses": ["FCWR 151", "CSCI 185", "ITEC 251"],
+      "gpa": 2.9,
+      "preferences": {
+        "interests": ["web development", "multimedia"],
+        "max_credits_per_semester": 13,
+        "min_credits_per_semester": 12,
+        "preferred_schedule": "evening",
+        "concentration_choice": "General Option",
+        "notes": "Works part-time; needs evening classes; behind on writing sequence."
+      }
+    },
+    {
+      "student_id": "S-ECEBS-001",
+      "name": "Diego Ramirez",
+      "program_id": "ECE_BS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Spring 2027",
+      "target_graduation": "Spring 2029",
+      "completed_courses": [
+        "FCWR 101", "FCWR 151", "MATH 170", "MATH 180",
+        "CHEM 107", "PHYS 170",
+        "CSCI 125", "CSCI 185",
+        "ETCS 105", "EENG 125", "EENG 212", "MENG 211",
+        "DATA 101"
+      ],
+      "current_courses": ["EENG 270", "EENG 275", "EENG 281", "MATH 260"],
+      "gpa": 3.3,
+      "preferences": {
+        "interests": ["embedded systems", "signal processing"],
+        "max_credits_per_semester": 17,
+        "min_credits_per_semester": 14,
+        "preferred_schedule": "morning",
+        "concentration_choice": null,
+        "notes": "Interested in APMD path to ECE MS; wants embedded systems focus."
+      }
+    },
+    {
+      "student_id": "S-ECEBS-002",
+      "name": "Sarah Kim",
+      "program_id": "ECE_BS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Fall 2028",
+      "completed_courses": [
+        "FCWR 101", "MATH 170", "CHEM 107",
+        "CSCI 125", "ETCS 105", "EENG 125", "DATA 101"
+      ],
+      "current_courses": ["FCWR 151", "MATH 180", "PHYS 170", "CSCI 185", "EENG 212"],
+      "gpa": 3.8,
+      "preferences": {
+        "interests": ["controls", "robotics", "AI"],
+        "max_credits_per_semester": 18,
+        "min_credits_per_semester": 15,
+        "preferred_schedule": "no_preference",
+        "concentration_choice": null,
+        "notes": "Ambitious pace; wants to explore ML electives via EENG/CSCI slot; open to grad school."
+      }
+    },
+    {
+      "student_id": "S-CSMS-001",
+      "name": "Nadia Volkov",
+      "program_id": "CS_MS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Spring 2028",
+      "completed_courses": [],
+      "current_courses": ["CSCI 610", "CSCI 641", "CSCI 651"],
+      "gpa": 3.7,
+      "preferences": {
+        "interests": ["artificial intelligence", "systems"],
+        "max_credits_per_semester": 9,
+        "min_credits_per_semester": 6,
+        "preferred_schedule": "evening",
+        "concentration_choice": null,
+        "notes": "Working full-time; needs evening/weekend courses. Thesis track — wants AI-focused thesis under CSCI 890/891."
+      }
+    },
+    {
+      "student_id": "S-CSMS-002",
+      "name": "Ethan Wallace",
+      "program_id": "CS_MS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Spring 2027",
+      "target_graduation": "Fall 2027",
+      "completed_courses": ["CSCI 610", "CSCI 641", "CSCI 651", "CSCI 665"],
+      "current_courses": ["CSCI 621", "CSCI 755", "CSCI 690"],
+      "gpa": 3.9,
+      "preferences": {
+        "interests": ["software engineering", "networks"],
+        "max_credits_per_semester": 12,
+        "min_credits_per_semester": 9,
+        "preferred_schedule": "morning",
+        "concentration_choice": null,
+        "notes": "Full-time student; accelerated pace via non-thesis project track."
+      }
+    },
+    {
+      "student_id": "S-DSMS-001",
+      "name": "Amara Johnson",
+      "program_id": "DS_MS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Spring 2028",
+      "completed_courses": [],
+      "current_courses": ["DTSC 610", "DTSC 620"],
+      "gpa": 3.5,
+      "preferences": {
+        "interests": ["machine learning", "deep learning", "healthcare AI"],
+        "max_credits_per_semester": 9,
+        "min_credits_per_semester": 6,
+        "preferred_schedule": "evening",
+        "concentration_choice": null,
+        "notes": "Career switcher from biology; wants ML/DL sequence culminating in thesis (DTSC 890/891)."
+      }
+    },
+    {
+      "student_id": "S-DSMS-002",
+      "name": "Kai Nakamura",
+      "program_id": "DS_MS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Spring 2027",
+      "target_graduation": "Fall 2027",
+      "completed_courses": ["DTSC 610", "DTSC 615", "DTSC 620", "DTSC 701"],
+      "current_courses": ["DTSC 710", "DTSC 630"],
+      "gpa": 3.7,
+      "preferences": {
+        "interests": ["big data", "visualization"],
+        "max_credits_per_semester": 12,
+        "min_credits_per_semester": 9,
+        "preferred_schedule": "afternoon",
+        "concentration_choice": null,
+        "notes": "Wants non-thesis/project track with DTSC 870 capstone; targeting industry data-engineering role."
+      }
+    },
+    {
+      "student_id": "S-MENGMS-001",
+      "name": "Fatima Al-Sayed",
+      "program_id": "MENG_MS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Spring 2028",
+      "completed_courses": [],
+      "current_courses": ["MENG 601", "MENG 603"],
+      "gpa": 3.6,
+      "preferences": {
+        "interests": ["biomedical devices", "mechatronics"],
+        "max_credits_per_semester": 9,
+        "min_credits_per_semester": 6,
+        "preferred_schedule": "evening",
+        "concentration_choice": "Biomedical Devices",
+        "notes": "Thesis track; wants MENG 650 in biomedical devices concentration."
+      }
+    },
+    {
+      "student_id": "S-MENGMS-002",
+      "name": "Ryan O'Sullivan",
+      "program_id": "MENG_MS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Spring 2027",
+      "target_graduation": "Fall 2027",
+      "completed_courses": ["MENG 601", "MENG 603", "MENG 640"],
+      "current_courses": ["MENG 604", "MENG 634"],
+      "gpa": 3.8,
+      "preferences": {
+        "interests": ["energy systems", "thermal science"],
+        "max_credits_per_semester": 12,
+        "min_credits_per_semester": 9,
+        "preferred_schedule": "morning",
+        "concentration_choice": "Energy and Thermal Science",
+        "notes": "Non-thesis track; wants MENG 610 (Heat Transfer I) and MENG 605 (Materials) as electives."
+      }
+    },
+    {
+      "student_id": "S-CSBS-003",
+      "name": "Sam Patel",
+      "program_id": "CS_BS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Spring 2030",
+      "completed_courses": [],
+      "current_courses": [
+        "CSCI 125", "MATH 170", "FCWR 101",
+        "ETCS 105", "ETCS 108", "DATA 101"
+      ],
+      "gpa": null,
+      "preferences": {
+        "interests": ["programming", "problem solving"],
+        "max_credits_per_semester": 17,
+        "min_credits_per_semester": 15,
+        "preferred_schedule": "morning",
+        "concentration_choice": null,
+        "notes": "Incoming freshman — hasn't chosen a concentration yet. Exploring AI and cybersecurity through intro seminars this year."
+      }
+    },
+    {
+      "student_id": "S-CSMS-003",
+      "name": "Riya Sharma",
+      "program_id": "CS_MS",
+      "catalog_year": "2026-2027",
+      "current_semester": "Fall 2026",
+      "target_graduation": "Spring 2028",
+      "completed_courses": [],
+      "current_courses": ["CSCI 610", "CSCI 641", "CSCI 651"],
+      "gpa": null,
+      "preferences": {
+        "interests": ["artificial intelligence", "software engineering"],
+        "max_credits_per_semester": 9,
+        "min_credits_per_semester": 6,
+        "preferred_schedule": "evening",
+        "concentration_choice": null,
+        "notes": "New CS MS student — taking full fundamental sequence in first term. Working full-time, wants evening classes and 3-course cadence."
+      }
+    }
+  ]
+}

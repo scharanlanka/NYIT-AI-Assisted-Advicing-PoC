@@ -1,0 +1,32 @@
+{
+  "program_id": "DS_MS",
+  "name": "Data Science, M.S.",
+  "level": "graduate",
+  "college": "College of Engineering and Computing Sciences",
+  "department": "Data Science",
+  "catalog_year": "2026-2027",
+  "total_credits": 30,
+  "catalog_url": "https://catalog.nyit.edu/engineering/data_science_ms/curriculum",
+  "source_notes": "30 credits total. Fundamental courses (15) + Thesis track (15) or Non-Thesis/Project track (15). Course-level prereqs (e.g., DTSC 710 requires DTSC 615) cross-referenced from NYIT online catalog descriptions.",
+  "requirement_blocks": [
+    {"name": "Fundamental Courses", "course_ids": ["DTSC 610", "DTSC 615", "DTSC 620", "DTSC 701", "DTSC 710"], "credits_required": 15},
+    {"name": "Thesis Track", "course_ids": ["DTSC 890", "DTSC 891"], "choose_n": 2, "credits_required": 6, "notes": "Thesis track only."},
+    {"name": "Project Track", "course_ids": ["DTSC 870"], "credits_required": 3, "notes": "Non-thesis track only — 3-credit project + 12 credits of electives."},
+    {"name": "Electives", "course_ids": ["DTSC 630", "DTSC 635", "DTSC 740", "DTSC 760"], "credits_required": 9, "notes": "9 credits electives for thesis, 12 for non-thesis. Consult with advisor for approved electives."}
+  ],
+  "concentrations": [],
+  "courses": [
+    {"course_id": "DTSC 610", "title": "Programming for Data Science", "credits": 3, "description": "Python and R programming for data science.", "prerequisite_groups": [], "department": "Data Science", "level": "600", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["programming", "python", "r", "grad"]},
+    {"course_id": "DTSC 615", "title": "Optimization Methods for Data Science", "credits": 3, "description": "Optimization algorithms — gradient descent, convex optimization, applications.", "prerequisite_groups": [["DTSC 610"]], "department": "Data Science", "level": "600", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["optimization", "grad"]},
+    {"course_id": "DTSC 620", "title": "Statistics for Data Science", "credits": 3, "description": "Statistical inference, hypothesis testing, and Bayesian methods.", "prerequisite_groups": [["DTSC 610"]], "department": "Data Science", "level": "600", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["statistics", "grad"]},
+    {"course_id": "DTSC 701", "title": "Introduction to Big Data", "credits": 3, "description": "Big data acquisition, storage, management, and analytics on state-of-the-art platforms.", "prerequisite_groups": [["DTSC 610"]], "department": "Data Science", "level": "700", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["big-data", "grad"]},
+    {"course_id": "DTSC 710", "title": "Machine Learning", "credits": 3, "description": "Machine learning concepts and algorithms — classification, clustering, feature selection, Bayesian networks.", "prerequisite_groups": [["DTSC 615"]], "department": "Data Science", "level": "700", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["machine-learning", "ai", "grad"]},
+    {"course_id": "DTSC 630", "title": "Data Visualization", "credits": 3, "description": "Data visualization principles, tools, and interactive dashboards.", "prerequisite_groups": [["DTSC 610"]], "department": "Data Science", "level": "600", "semesters_offered": ["spring"], "category": "core_required", "tags": ["visualization", "grad"]},
+    {"course_id": "DTSC 635", "title": "Probability and Stochastic Processes", "credits": 3, "description": "Probability theory, random variables, and stochastic processes.", "prerequisite_groups": [["DTSC 620"]], "department": "Data Science", "level": "600", "semesters_offered": ["fall"], "category": "core_required", "tags": ["probability", "grad"]},
+    {"course_id": "DTSC 740", "title": "Deep Learning", "credits": 3, "description": "Neural networks, CNNs, RNNs, unsupervised and reinforcement learning.", "prerequisite_groups": [["DTSC 710"]], "department": "Data Science", "level": "700", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["deep-learning", "ai", "grad"]},
+    {"course_id": "DTSC 760", "title": "Biometrics", "credits": 3, "description": "Biometric identification techniques and applications.", "prerequisite_groups": [["DTSC 710"]], "department": "Data Science", "level": "700", "semesters_offered": ["spring"], "category": "core_required", "tags": ["biometrics", "ai", "grad"]},
+    {"course_id": "DTSC 870", "title": "MS Project I", "credits": 3, "description": "Capstone data science project (non-thesis track).", "prerequisite_groups": [["DTSC 710"]], "department": "Data Science", "level": "800", "semesters_offered": ["fall", "spring"], "category": "capstone", "tags": ["project", "grad"]},
+    {"course_id": "DTSC 890", "title": "MS Thesis I", "credits": 3, "description": "First semester of MS thesis research (thesis track).", "prerequisite_groups": [["DTSC 710"]], "department": "Data Science", "level": "800", "semesters_offered": ["fall", "spring"], "category": "capstone", "tags": ["thesis", "grad"]},
+    {"course_id": "DTSC 891", "title": "MS Thesis II", "credits": 3, "description": "Second semester of MS thesis — defense.", "prerequisite_groups": [["DTSC 890"]], "department": "Data Science", "level": "800", "semesters_offered": ["fall", "spring"], "category": "capstone", "tags": ["thesis", "grad"]}
+  ]
+}

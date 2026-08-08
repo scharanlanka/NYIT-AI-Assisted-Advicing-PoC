@@ -1,0 +1,644 @@
+{
+  "programs": [
+    {
+      "program_id": "CS_BS",
+      "name": "Computer Science, B.S.",
+      "level": "undergrad",
+      "college": "College of Engineering and Computing Sciences",
+      "department": "Computer Science",
+      "catalog_year": "2026-2027",
+      "total_credits": 122,
+      "catalog_url": "https://catalog.nyit.edu/engineering/computer_science/curriculum",
+      "source_notes": "Curriculum blocks scraped from NYIT public catalog 2026-2027. Individual course prerequisites cross-referenced with the official 2022 Semester Map PDF (site.nyit.edu/files/advising/semester_maps_2022/ADV_DegreeMap_COECS_ComputerScienceBS_2022.pdf). Where the 2026-2027 catalog uses course codes that did not appear in the 2022 map, prereqs default to empty and are marked TODO for follow-up.",
+      "requirement_blocks": [
+        {
+          "name": "General Education \u2014 Foundations",
+          "course_ids": [
+            "FCWR 101",
+            "FCWR 151",
+            "FCWR 304"
+          ],
+          "credits_required": 9
+        },
+        {
+          "name": "General Education \u2014 Data Literacy",
+          "course_ids": [
+            "DATA 101"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "General Education \u2014 Social Science Core",
+          "course_ids": [
+            "IENG 400"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "General Education \u2014 Seminars (3 of 4 areas)",
+          "course_ids": [
+            "ICBS 3XX",
+            "ICLT 3XX",
+            "ICPH 3XX",
+            "ICSS 3XX"
+          ],
+          "choose_n": 3,
+          "credits_required": 9,
+          "notes": "Students must take three seminar courses from three different areas of study."
+        },
+        {
+          "name": "General Education \u2014 Math",
+          "course_ids": [
+            "MATH 170"
+          ],
+          "credits_required": 4
+        },
+        {
+          "name": "General Education \u2014 Science (choose one)",
+          "course_ids": [
+            "PHYS 170",
+            "CHEM 110",
+            "BIOL 110"
+          ],
+          "choose_n": 1,
+          "credits_required": 4
+        },
+        {
+          "name": "Engineering Technology",
+          "course_ids": [
+            "ETCS 105",
+            "ETCS 108"
+          ],
+          "credits_required": 5,
+          "notes": "ETCS 105 may be waived for transfer students with sophomore+ status."
+        },
+        {
+          "name": "Core Computer Science",
+          "course_ids": [
+            "CSCI 125",
+            "CSCI 135",
+            "CSCI 155",
+            "CSCI 185",
+            "CSCI 235",
+            "CSCI 260",
+            "CSCI 270",
+            "CSCI 300",
+            "CSCI 312",
+            "CSCI 318",
+            "CSCI 330",
+            "CSCI 335",
+            "CSCI 345",
+            "CSCI 380",
+            "CSCI 456",
+            "CSCI 457"
+          ],
+          "credits_required": 46,
+          "notes": "AI concentration substitutes CSCI 435 for CSCI 270."
+        },
+        {
+          "name": "Additional Mathematics",
+          "course_ids": [
+            "MATH 180",
+            "MATH 310"
+          ],
+          "credits_required": 7
+        },
+        {
+          "name": "Electives",
+          "course_ids": [],
+          "credits_required": 15,
+          "notes": "9 Math/Science Elective + 3 General Elective + 3 Liberal Arts Elective. All electives must be approved by the department."
+        }
+      ],
+      "concentrations": [
+        {
+          "name": "Artificial Intelligence",
+          "description": "Choose four courses from the AI concentration list. Substitute CSCI 435 for CSCI 270 in the core.",
+          "requirement_blocks": [
+            {
+              "name": "AI Concentration Electives (choose 4)",
+              "course_ids": [
+                "CSCI 353",
+                "CSCI 355",
+                "CSCI 410",
+                "CSCI 425",
+                "CSCI 460",
+                "CSCI 465",
+                "CSCI 470"
+              ],
+              "choose_n": 4,
+              "credits_required": 12
+            }
+          ]
+        },
+        {
+          "name": "Big Data Management and Analytics",
+          "description": "Choose four courses from the Big Data concentration list.",
+          "requirement_blocks": [
+            {
+              "name": "Big Data Concentration Electives (choose 4)",
+              "course_ids": [
+                "CSCI 401",
+                "CSCI 405",
+                "CSCI 415",
+                "CSCI 426",
+                "CSCI 436"
+              ],
+              "choose_n": 4,
+              "credits_required": 12
+            }
+          ]
+        },
+        {
+          "name": "Network Security",
+          "description": "Choose four courses from the Network Security concentration list.",
+          "requirement_blocks": [
+            {
+              "name": "Network Security Concentration Electives (choose 4)",
+              "course_ids": [
+                "CSCI 352",
+                "CSCI 354",
+                "CSCI 357",
+                "CSCI 362",
+                "CSCI 440",
+                "CSCI 445",
+                "CSCI 460",
+                "CSCI 470"
+              ],
+              "choose_n": 4,
+              "credits_required": 12
+            }
+          ]
+        },
+        {
+          "name": "General Option",
+          "description": "Choose four CSCI/ITEC 300- or 400-level courses (excluding CSCI 316 and CSCI 317).",
+          "requirement_blocks": [
+            {
+              "name": "General Concentration Electives (choose 4)",
+              "course_ids": [],
+              "choose_n": 4,
+              "credits_required": 12,
+              "notes": "Any CSCI/ITEC 300- or 400-level except CSCI 316, 317."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "CS_MS",
+      "name": "Computer Science, M.S.",
+      "level": "graduate",
+      "college": "College of Engineering and Computing Sciences",
+      "department": "Computer Science",
+      "catalog_year": "2026-2027",
+      "total_credits": 30,
+      "catalog_url": "https://catalog.nyit.edu/engineering/computer_science_ms/curriculum",
+      "source_notes": "30 credits total. Fundamental (9) + System Programming pick 2 (6) + Application pick 2 (6) + Project/Thesis (3-6) + Electives (3-6). Graduate courses generally require admitted graduate standing; specific course-level prereqs are department-approved.",
+      "requirement_blocks": [
+        {
+          "name": "Fundamental Courses",
+          "course_ids": [
+            "CSCI 610",
+            "CSCI 641",
+            "CSCI 651"
+          ],
+          "credits_required": 9
+        },
+        {
+          "name": "System Programming (choose 2)",
+          "course_ids": [
+            "CSCI 620",
+            "CSCI 621",
+            "CSCI 731"
+          ],
+          "choose_n": 2,
+          "credits_required": 6
+        },
+        {
+          "name": "Application (choose 2)",
+          "course_ids": [
+            "CSCI 665",
+            "CSCI 670",
+            "CSCI 690",
+            "CSCI 755",
+            "CSCI 760"
+          ],
+          "choose_n": 2,
+          "credits_required": 6
+        },
+        {
+          "name": "Project or Thesis Track",
+          "course_ids": [
+            "CSCI 890",
+            "CSCI 891"
+          ],
+          "choose_n": 2,
+          "credits_required": 6,
+          "notes": "Thesis: CSCI 890 + CSCI 891 (6 cr). Non-thesis: 3-cr project + 3 additional electives."
+        },
+        {
+          "name": "Electives",
+          "course_ids": [],
+          "credits_required": 3,
+          "notes": "3 credits for thesis track, 6 credits for non-thesis track."
+        }
+      ],
+      "concentrations": []
+    },
+    {
+      "program_id": "DS_MS",
+      "name": "Data Science, M.S.",
+      "level": "graduate",
+      "college": "College of Engineering and Computing Sciences",
+      "department": "Data Science",
+      "catalog_year": "2026-2027",
+      "total_credits": 30,
+      "catalog_url": "https://catalog.nyit.edu/engineering/data_science_ms/curriculum",
+      "source_notes": "30 credits total. Fundamental courses (15) + Thesis track (15) or Non-Thesis/Project track (15). Course-level prereqs (e.g., DTSC 710 requires DTSC 615) cross-referenced from NYIT online catalog descriptions.",
+      "requirement_blocks": [
+        {
+          "name": "Fundamental Courses",
+          "course_ids": [
+            "DTSC 610",
+            "DTSC 615",
+            "DTSC 620",
+            "DTSC 701",
+            "DTSC 710"
+          ],
+          "credits_required": 15
+        },
+        {
+          "name": "Thesis Track",
+          "course_ids": [
+            "DTSC 890",
+            "DTSC 891"
+          ],
+          "choose_n": 2,
+          "credits_required": 6,
+          "notes": "Thesis track only."
+        },
+        {
+          "name": "Project Track",
+          "course_ids": [
+            "DTSC 870"
+          ],
+          "credits_required": 3,
+          "notes": "Non-thesis track only \u2014 3-credit project + 12 credits of electives."
+        },
+        {
+          "name": "Electives",
+          "course_ids": [
+            "DTSC 630",
+            "DTSC 635",
+            "DTSC 740",
+            "DTSC 760"
+          ],
+          "credits_required": 9,
+          "notes": "9 credits electives for thesis, 12 for non-thesis. Consult with advisor for approved electives."
+        }
+      ],
+      "concentrations": []
+    },
+    {
+      "program_id": "ECE_BS",
+      "name": "Electrical and Computer Engineering, B.S.",
+      "level": "undergrad",
+      "college": "College of Engineering and Computing Sciences",
+      "department": "Electrical and Computer Engineering",
+      "catalog_year": "2026-2027",
+      "total_credits": 132,
+      "catalog_url": "https://catalog.nyit.edu/engineering/electrical_and_computer_engineering/curriculum",
+      "source_notes": "Curriculum blocks scraped from NYIT public catalog 2026-2027. EENG prereqs inferred from standard sequencing (Circuits I -> Circuits II -> Electronics I, etc.); verify against Semester Map PDF for exact chains.",
+      "requirement_blocks": [
+        {
+          "name": "General Education \u2014 Foundations",
+          "course_ids": [
+            "FCWR 101",
+            "FCWR 151",
+            "FCWR 304"
+          ],
+          "credits_required": 9
+        },
+        {
+          "name": "General Education \u2014 Data Literacy",
+          "course_ids": [
+            "DATA 101"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "General Education \u2014 Social Science Core",
+          "course_ids": [
+            "IENG 400"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "General Education \u2014 Seminars (3 of 4 areas)",
+          "course_ids": [
+            "ICBS 3XX",
+            "ICLT 3XX",
+            "ICPH 3XX",
+            "ICSS 3XX"
+          ],
+          "choose_n": 3,
+          "credits_required": 9
+        },
+        {
+          "name": "General Education \u2014 Math and Science",
+          "course_ids": [
+            "MATH 170",
+            "CHEM 107"
+          ],
+          "credits_required": 8
+        },
+        {
+          "name": "Engineering Technology",
+          "course_ids": [
+            "ETCS 105"
+          ],
+          "credits_required": 2
+        },
+        {
+          "name": "Core Electrical Engineering",
+          "course_ids": [
+            "EENG 125",
+            "EENG 212",
+            "EENG 270",
+            "EENG 275",
+            "EENG 281",
+            "EENG 310",
+            "EENG 315",
+            "EENG 320",
+            "EENG 330",
+            "EENG 341",
+            "EENG 360",
+            "EENG 371",
+            "EENG 382",
+            "EENG 401",
+            "EENG 403",
+            "EENG 489",
+            "EENG 491"
+          ],
+          "credits_required": 42,
+          "notes": "Plus 6 credits of EENG/CSCI electives = 48 total"
+        },
+        {
+          "name": "Core Computer Science",
+          "course_ids": [
+            "CSCI 125",
+            "CSCI 155",
+            "CSCI 185",
+            "CSCI 235",
+            "CSCI 260",
+            "CSCI 330"
+          ],
+          "credits_required": 18
+        },
+        {
+          "name": "Mechanical Engineering",
+          "course_ids": [
+            "MENG 211"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "Mathematics",
+          "course_ids": [
+            "MATH 180",
+            "MATH 260",
+            "MATH 310",
+            "MATH 320"
+          ],
+          "credits_required": 14
+        },
+        {
+          "name": "Physics",
+          "course_ids": [
+            "PHYS 170",
+            "PHYS 180",
+            "PHYS 225"
+          ],
+          "credits_required": 11
+        },
+        {
+          "name": "Electives",
+          "course_ids": [],
+          "credits_required": 6,
+          "notes": "3 Liberal Arts + 3 STEM"
+        }
+      ],
+      "concentrations": []
+    },
+    {
+      "program_id": "IT_BS",
+      "name": "Information Technology, B.S. (Information and Network Security Option)",
+      "level": "undergrad",
+      "college": "College of Engineering and Computing Sciences",
+      "department": "Information Technology",
+      "catalog_year": "2026-2027",
+      "total_credits": 120,
+      "catalog_url": "https://catalog.nyit.edu/engineering/information_technology/curriculum",
+      "source_notes": "Curriculum blocks scraped from NYIT public catalog 2026-2027. ITEC prereqs inferred from typical NYIT numbering conventions and CSCI cross-listing patterns; verify against Semester Map PDF for exact chains.",
+      "requirement_blocks": [
+        {
+          "name": "General Education \u2014 Foundations",
+          "course_ids": [
+            "FCWR 101",
+            "FCWR 151",
+            "FCWR 304"
+          ],
+          "credits_required": 9
+        },
+        {
+          "name": "General Education \u2014 Data Literacy",
+          "course_ids": [
+            "DATA 101"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "General Education \u2014 Social Science Core",
+          "course_ids": [
+            "IENG 400"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "General Education \u2014 Seminars (3 of 4 areas)",
+          "course_ids": [
+            "ICBS 3XX",
+            "ICLT 3XX",
+            "ICPH 3XX",
+            "ICSS 3XX"
+          ],
+          "choose_n": 3,
+          "credits_required": 9
+        },
+        {
+          "name": "General Education \u2014 Math and Science",
+          "course_ids": [
+            "MATH 161",
+            "PHYS XXX"
+          ],
+          "credits_required": 6
+        },
+        {
+          "name": "Engineering Technology",
+          "course_ids": [
+            "ETCS 105",
+            "ETCS 108"
+          ],
+          "credits_required": 5
+        },
+        {
+          "name": "Core Computer Science",
+          "course_ids": [
+            "CSCI 125",
+            "CSCI 155",
+            "CSCI 185",
+            "CSCI 235",
+            "CSCI 260",
+            "CSCI 330",
+            "CSCI 345"
+          ],
+          "credits_required": 21
+        },
+        {
+          "name": "Core Information Technology",
+          "course_ids": [
+            "ITEC 251",
+            "ITEC 290",
+            "ITEC 305",
+            "ITEC 320",
+            "ITEC 357"
+          ],
+          "credits_required": 15
+        },
+        {
+          "name": "Engineering Management",
+          "course_ids": [
+            "IENG 251"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "Management",
+          "course_ids": [
+            "MGMT 421"
+          ],
+          "credits_required": 3
+        },
+        {
+          "name": "Electives",
+          "course_ids": [],
+          "credits_required": 36,
+          "notes": "12 General + 6 Liberal Arts + 3 Math + 3 Science + 12 Science/Technology"
+        }
+      ],
+      "concentrations": [
+        {
+          "name": "Information and Network Security Option",
+          "description": "Choose three courses from the Info/Network Security list.",
+          "requirement_blocks": [
+            {
+              "name": "Info & Network Security Electives (choose 3)",
+              "course_ids": [
+                "ITEC 310",
+                "ITEC 365",
+                "ITEC 440",
+                "ITEC 445",
+                "ITEC 450",
+                "ITEC 460"
+              ],
+              "choose_n": 3,
+              "credits_required": 9
+            }
+          ]
+        },
+        {
+          "name": "General Option",
+          "description": "Choose three 300/400-level CSCI or ITEC courses (except CSCI 316, 317).",
+          "requirement_blocks": [
+            {
+              "name": "General Concentration Electives (choose 3)",
+              "course_ids": [],
+              "choose_n": 3,
+              "credits_required": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "MENG_MS",
+      "name": "Mechanical Engineering, M.S.",
+      "level": "graduate",
+      "college": "College of Engineering and Computing Sciences",
+      "department": "Mechanical Engineering",
+      "catalog_year": "2026-2027",
+      "total_credits": 30,
+      "catalog_url": "https://catalog.nyit.edu/engineering/mechanical_engineering_ms/curriculum",
+      "source_notes": "30 credits total. Required core (15) + Thesis track (15) or Non-Thesis track (15). Graduate courses generally require admitted graduate standing.",
+      "requirement_blocks": [
+        {
+          "name": "Required Core Courses",
+          "course_ids": [
+            "MENG 601",
+            "MENG 603",
+            "MENG 604",
+            "MENG 634",
+            "MENG 640"
+          ],
+          "credits_required": 15
+        },
+        {
+          "name": "Thesis Track",
+          "course_ids": [
+            "MENG 660",
+            "MENG 661"
+          ],
+          "credits_required": 6,
+          "notes": "Plus 9 credits of graduate-level electives (above 600). Minimum 3 credits must be MENG."
+        },
+        {
+          "name": "Non-Thesis Track",
+          "course_ids": [
+            "MENG 660"
+          ],
+          "credits_required": 3,
+          "notes": "Plus 12 credits of graduate-level electives (above 600). Minimum 6 credits must be MENG."
+        },
+        {
+          "name": "Electives",
+          "course_ids": [],
+          "credits_required": 9,
+          "notes": "9 credits for thesis track, 12 for non-thesis. Up to 6 credits from other engineering departments with chair approval."
+        }
+      ],
+      "concentrations": [
+        {
+          "name": "Design and Solid Mechanics",
+          "description": "Thesis-track concentration in design and solid mechanics.",
+          "requirement_blocks": []
+        },
+        {
+          "name": "Energy and Thermal Science",
+          "description": "Thesis-track concentration in energy and thermal science.",
+          "requirement_blocks": []
+        },
+        {
+          "name": "Mechatronics",
+          "description": "Thesis-track concentration in mechatronics.",
+          "requirement_blocks": []
+        },
+        {
+          "name": "Biomedical Devices",
+          "description": "Thesis-track concentration in biomedical devices.",
+          "requirement_blocks": []
+        }
+      ]
+    }
+  ]
+}

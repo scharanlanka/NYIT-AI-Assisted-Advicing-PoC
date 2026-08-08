@@ -1,0 +1,56 @@
+{
+  "program_id": "IT_BS",
+  "name": "Information Technology, B.S. (Information and Network Security Option)",
+  "level": "undergrad",
+  "college": "College of Engineering and Computing Sciences",
+  "department": "Information Technology",
+  "catalog_year": "2026-2027",
+  "total_credits": 120,
+  "catalog_url": "https://catalog.nyit.edu/engineering/information_technology/curriculum",
+  "source_notes": "Curriculum blocks scraped from NYIT public catalog 2026-2027. ITEC prereqs inferred from typical NYIT numbering conventions and CSCI cross-listing patterns; verify against Semester Map PDF for exact chains.",
+  "requirement_blocks": [
+    {"name": "General Education — Foundations", "course_ids": ["FCWR 101", "FCWR 151", "FCWR 304"], "credits_required": 9},
+    {"name": "General Education — Data Literacy", "course_ids": ["DATA 101"], "credits_required": 3},
+    {"name": "General Education — Social Science Core", "course_ids": ["IENG 400"], "credits_required": 3},
+    {"name": "General Education — Seminars (3 of 4 areas)", "course_ids": ["ICBS 3XX", "ICLT 3XX", "ICPH 3XX", "ICSS 3XX"], "choose_n": 3, "credits_required": 9},
+    {"name": "General Education — Math and Science", "course_ids": ["MATH 161", "PHYS XXX"], "credits_required": 6},
+    {"name": "Engineering Technology", "course_ids": ["ETCS 105", "ETCS 108"], "credits_required": 5},
+    {"name": "Core Computer Science", "course_ids": ["CSCI 125", "CSCI 155", "CSCI 185", "CSCI 235", "CSCI 260", "CSCI 330", "CSCI 345"], "credits_required": 21},
+    {"name": "Core Information Technology", "course_ids": ["ITEC 251", "ITEC 290", "ITEC 305", "ITEC 320", "ITEC 357"], "credits_required": 15},
+    {"name": "Engineering Management", "course_ids": ["IENG 251"], "credits_required": 3},
+    {"name": "Management", "course_ids": ["MGMT 421"], "credits_required": 3},
+    {"name": "Electives", "course_ids": [], "credits_required": 36, "notes": "12 General + 6 Liberal Arts + 3 Math + 3 Science + 12 Science/Technology"}
+  ],
+  "concentrations": [
+    {
+      "name": "Information and Network Security Option",
+      "description": "Choose three courses from the Info/Network Security list.",
+      "requirement_blocks": [
+        {"name": "Info & Network Security Electives (choose 3)", "course_ids": ["ITEC 310", "ITEC 365", "ITEC 440", "ITEC 445", "ITEC 450", "ITEC 460"], "choose_n": 3, "credits_required": 9}
+      ]
+    },
+    {
+      "name": "General Option",
+      "description": "Choose three 300/400-level CSCI or ITEC courses (except CSCI 316, 317).",
+      "requirement_blocks": [
+        {"name": "General Concentration Electives (choose 3)", "course_ids": [], "choose_n": 3, "credits_required": 9}
+      ]
+    }
+  ],
+  "courses": [
+    {"course_id": "ITEC 251", "title": "Applied Discrete Structures I", "credits": 3, "description": "Discrete mathematics for IT applications.", "prerequisite_groups": [["CSCI 125"]], "department": "Information Technology", "level": "200", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["discrete-math"]},
+    {"course_id": "ITEC 290", "title": "Database Systems", "credits": 3, "description": "Database design, SQL, and applications for IT professionals.", "prerequisite_groups": [["CSCI 185"]], "department": "Information Technology", "level": "200", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["databases"]},
+    {"course_id": "ITEC 305", "title": "Internet Programming I", "credits": 3, "description": "Web programming fundamentals — HTML, CSS, JavaScript, server-side scripting.", "prerequisite_groups": [["CSCI 185"]], "department": "Information Technology", "level": "300", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["web", "programming"]},
+    {"course_id": "ITEC 320", "title": "Web-based Multimedia Development I", "credits": 3, "description": "Multimedia web development — graphics, audio, video integration.", "prerequisite_groups": [["ITEC 305"]], "department": "Information Technology", "level": "300", "semesters_offered": ["spring"], "category": "core_required", "tags": ["web", "multimedia"]},
+    {"course_id": "ITEC 357", "title": "Cisco Academy Level 1", "credits": 3, "description": "Cisco networking academy — routing, switching, protocols.", "prerequisite_groups": [["CSCI 345"]], "department": "Information Technology", "level": "300", "semesters_offered": ["fall"], "category": "core_required", "tags": ["networking", "cisco"]},
+    {"course_id": "ITEC 310", "title": "Introduction to Network and Internet Security", "credits": 3, "description": "Introductory network and Internet security.", "prerequisite_groups": [["CSCI 345"]], "department": "Information Technology", "level": "300", "semesters_offered": ["fall", "spring"], "category": "concentration", "tags": ["security"]},
+    {"course_id": "ITEC 365", "title": "Secure Programming", "credits": 3, "description": "Secure coding practices and vulnerability prevention.", "prerequisite_groups": [["CSCI 260"]], "department": "Information Technology", "level": "300", "semesters_offered": ["spring"], "category": "concentration", "tags": ["security", "programming"]},
+    {"course_id": "ITEC 440", "title": "Advanced Network and Internet Security", "credits": 3, "description": "Advanced topics in network and Internet security.", "prerequisite_groups": [["ITEC 310"]], "department": "Information Technology", "level": "400", "semesters_offered": ["fall"], "category": "concentration", "tags": ["security"]},
+    {"course_id": "ITEC 445", "title": "Operating System Security", "credits": 3, "description": "OS security models, hardening, and administration.", "prerequisite_groups": [["CSCI 330"]], "department": "Information Technology", "level": "400", "semesters_offered": ["spring"], "category": "concentration", "tags": ["security", "os"]},
+    {"course_id": "ITEC 450", "title": "Seminar Project", "credits": 3, "description": "Senior seminar project in IT.", "prerequisite_groups": [["ITEC 305"]], "department": "Information Technology", "level": "400", "semesters_offered": ["fall", "spring"], "category": "concentration", "tags": ["capstone"]},
+    {"course_id": "ITEC 460", "title": "Topics in Information Technology", "credits": 3, "description": "Rotating advanced topics in IT.", "prerequisite_groups": [["CSCI 260"]], "department": "Information Technology", "level": "400", "semesters_offered": ["fall", "spring"], "category": "concentration", "tags": ["special-topics"]},
+    {"course_id": "MATH 161", "title": "Basic Applied Calculus", "credits": 3, "description": "Applied calculus — differentiation, integration, and applications.", "prerequisite_groups": [], "department": "Mathematics", "level": "100", "semesters_offered": ["fall", "spring"], "category": "math_required", "tags": ["calculus"]},
+    {"course_id": "IENG 251", "title": "Project Engineering", "credits": 3, "description": "Project management fundamentals for engineers.", "prerequisite_groups": [], "department": "Engineering Management", "level": "200", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["project-management"]},
+    {"course_id": "MGMT 421", "title": "Cyber Law, Policy, and Ethics", "credits": 3, "description": "Legal, policy, and ethical issues in cybersecurity.", "prerequisite_groups": [], "department": "Management", "level": "400", "semesters_offered": ["fall", "spring"], "category": "core_required", "tags": ["ethics", "policy"]}
+  ]
+}
