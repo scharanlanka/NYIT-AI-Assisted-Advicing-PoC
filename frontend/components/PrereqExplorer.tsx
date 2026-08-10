@@ -175,16 +175,36 @@ export default function PrereqExplorer({
   const alreadyCompleted = completedOnly.has(selectedCourseId);
   const inProgress = currentSet.has(selectedCourseId);
 
-  // Check prereq status
+  // Check prereq status using the chain data (which includes full prerequisite_groups).
+  // The listCourses endpoint omits prerequisite_groups, so we rely on chain instead.
+  // A student can register only if every course in the transitive chain has its
+  // own direct prereqs satisfied.
   const prereqStatus = (() => {
-    if (!c) return { satisfied: true, missing: [] };
-    if (!c.prerequisite_groups || c.prerequisite_groups.length === 0) {
+    // Chain not yet loaded — can't determine eligibility yet
+    if (Object.keys(chain).length === 0) return { satisfied: true, missing: [] };
+
+    // If no prerequisites at all (target has no chain entries beyond itself)
+    const targetGroups = chain[selectedCourseId] || [];
+    const otherNodes = Object.entries(chain).filter(([id]) => id !== selectedCourseId);
+    if (targetGroups.length === 0 && otherNodes.length === 0) {
       return { satisfied: true, missing: [] };
     }
+
     const missing: string[][] = [];
-    for (const group of c.prerequisite_groups) {
+
+    // Check target's own direct prereqs from chain
+    for (const group of targetGroups) {
       if (!group.some((p) => completed.has(p))) missing.push(group);
     }
+
+    // Check every intermediate course in the chain
+    for (const [nodeId, groups] of otherNodes) {
+      if (!groups || groups.length === 0) continue;
+      for (const group of groups) {
+        if (!group.some((p) => completed.has(p))) missing.push(group);
+      }
+    }
+
     return { satisfied: missing.length === 0, missing };
   })();
 

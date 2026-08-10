@@ -36,6 +36,11 @@ from __future__ import annotations
 
 import json
 import os
+import sys
+from pathlib import Path as _Path
+# Ensure backend/ is on sys.path so absolute imports work both locally
+# (uvicorn backend.main:app from repo root) and on Railway (root dir = backend)
+sys.path.insert(0, str(_Path(__file__).parent))
 from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
